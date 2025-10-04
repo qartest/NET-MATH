@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to bottom, #e0ffff, #add8e6);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boev.app.snake_game_net_4.controllers.StartController">
+   <Label fx:id="gameNameLabel" alignment="CENTER" layoutX="219.0" layoutY="55.0" prefHeight="61.0" prefWidth="362.0" style="-fx-font-weight: bold; -fx-text-overrun: clip; -fx-text-fill: linear-gradient(to bottom, #00bfff, #1e90ff);" text="Snake Game">
+      <font>
+         <Font size="50.0" />
+      </font>
+   </Label>
+
+   <VBox layoutX="265.0" layoutY="200.0" prefHeight="200.0" prefWidth="270.0" spacing="20.0">
+      <Button mnemonicParsing="false" onAction="#createGame" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: #b0e0e6; -fx-border-color: #00bfff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="New Game" textFill="#ffffff">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#joinGame" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: #add8e6; -fx-border-color: #1e90ff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Join Game" textFill="#ffffff">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: #87cefa; -fx-border-color: #4682b4; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Exit" textFill="#ffffff">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+   </VBox>
+</AnchorPane>
