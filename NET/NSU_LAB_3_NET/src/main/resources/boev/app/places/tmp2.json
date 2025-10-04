@@ -1,0 +1,29 @@
+{
+  "xid": "N6448563498",
+  "name": "Moscow Downtown Historic District",
+  "address": {
+    "city": "Moscow",
+    "road": "East 5th Street",
+    "house": "Moscow Food Co-op",
+    "state": "Idaho",
+    "county": "Latah County",
+    "country": "United States of America",
+    "postcode": "83843",
+    "country_code": "us",
+    "house_number": "121"
+  },
+  "rate": "1",
+  "osm": "node/6448563498",
+  "kinds": "other,unclassified_objects,interesting_places,historic_object",
+  "sources": {
+    "geometry": "osm",
+    "attributes": [
+      "osm"
+    ]
+  },
+  "otm": "https://opentripmap.com/ru/card/N6448563498",
+  "point": {
+    "lon": -117.00015258789062,
+    "lat": 46.73112487792969
+  }
+}

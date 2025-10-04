@@ -1,0 +1,114 @@
+{
+  "hits": [
+    {
+      "point": {
+        "lat": 52.510885,
+        "lng": 13.3989367
+      },
+      "extent": [
+        13.088345,
+        52.3382448,
+        13.7611609,
+        52.6755087
+      ],
+      "name": "Berlin",
+      "country": "Deutschland",
+      "countrycode": "DE",
+      "osm_id": 62422,
+      "osm_type": "R",
+      "osm_key": "place",
+      "osm_value": "city"
+    },
+    {
+      "point": {
+        "lat": 52.5127537,
+        "lng": 13.3814231
+      },
+      "name": "Schlacht um Berlin",
+      "country": "Deutschland",
+      "countrycode": "DE",
+      "city": "Berlin",
+      "street": "Gertrud-Kolmar-Straße",
+      "postcode": "10117",
+      "osm_id": 1078631331,
+      "osm_type": "N",
+      "osm_key": "historic",
+      "osm_value": "battlefield"
+    },
+    {
+      "point": {
+        "lat": 48.8009528,
+        "lng": 7.2418378
+      },
+      "extent": [
+        7.2242061,
+        48.7891741,
+        7.2609089,
+        48.8104634
+      ],
+      "name": "Berling",
+      "country": "France",
+      "countrycode": "FR",
+      "state": "Grand Est",
+      "postcode": "57370",
+      "osm_id": 1152723,
+      "osm_type": "R",
+      "osm_key": "place",
+      "osm_value": "village"
+    },
+    {
+      "point": {
+        "lat": 52.5190822,
+        "lng": 13.40109417160804
+      },
+      "extent": [
+        13.4003048,
+        52.5186346,
+        13.4017508,
+        52.5195378
+      ],
+      "name": "Berliner Dom",
+      "country": "Deutschland",
+      "countrycode": "DE",
+      "city": "Berlin",
+      "street": "Am Lustgarten",
+      "postcode": "10178",
+      "osm_id": 313670734,
+      "osm_type": "W",
+      "osm_key": "amenity",
+      "osm_value": "place_of_worship"
+    },
+    {
+      "point": {
+        "lat": 52.5190822,
+        "lng": 13.40109417160804
+      },
+      "extent": [
+        13.4003048,
+        52.5186346,
+        13.4017508,
+        52.5195378
+      ],
+      "name": "Berliner Dom",
+      "country": "Deutschland",
+      "countrycode": "DE",
+      "city": "Berlin",
+      "street": "Am Lustgarten",
+      "postcode": "10178",
+      "osm_id": 313670734,
+      "osm_type": "W",
+      "osm_key": "tourism",
+      "osm_value": "attraction"
+    }
+  ],
+  "locale": "default"
+}
+
+String display = String.format(
+"Name: %s, Country: %s, Lat: %.5f, Lng: %.5f",
+hit.getName(),
+hit.getCountry(),
+hit.getPoint().getLat(),
+hit.getPoint().getLng()
+);
+System.out.println(display);
